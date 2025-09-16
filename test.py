@@ -42,4 +42,5 @@ with DAG(
     )
 
     # Set task dependencies
-    start >> process >> end
+    start >> process >> end # This is the flow of the DAG
+# This DAG consists of three tasks: start, process, and end.
