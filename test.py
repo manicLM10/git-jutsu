@@ -42,6 +42,6 @@ with DAG(
     )
 
     # Set task dependencies
-    start >> process >> end
+
 #hari change in edit UI 
 #hari change in edit UI 2
