@@ -1,4 +1,7 @@
-
+from datetime import datetime
+from airflow import DAG
+from airflow.operators.dummy import DummyOperator
+from airflow.operators.python import PythonOperator
 
 # Define a simple Python function for the PythonOperator
 def process_data():
